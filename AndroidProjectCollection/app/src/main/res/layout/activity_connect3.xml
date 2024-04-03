@@ -7,22 +7,6 @@
     tools:context=".CalculatorExercise">
 
 
-    <TextView
-        android:id="@+id/player"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_above="@+id/board_layout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="364dp"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="77dp"
-        android:text="0"
-        android:textAlignment="textEnd"
-        android:textSize="30dp" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,6 +14,20 @@
         android:layout_alignParentBottom="true"
         android:background="#3F51B5"
         android:id="@+id/board_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Player"
+                android:textAlignment="center" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -264,6 +262,20 @@
                 android:text="B"
                 android:backgroundTint="#FFFFFF"/>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRestart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Restart"
+                android:backgroundTint="#4DE324"/>
         </LinearLayout>
 
     </LinearLayout>

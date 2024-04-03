@@ -14,7 +14,7 @@ public class Connect3 extends AppCompatActivity {
     private Button btn4;
     private Button btn5;
     private int[][] winningPos = {
-            
+
     };
     private TextView playerTurn;
     private boolean valid;
