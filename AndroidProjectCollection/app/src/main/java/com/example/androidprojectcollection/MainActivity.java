@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1, btn2, btn3;
+    Button btn1, btn2, btn3, btnPI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,5 +53,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent3);
             }
         });
+        btnPI = findViewById(R.id.btnPassingIntents);
+        btnPI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intentPI = new Intent(
+                        MainActivity.this,
+                        PassingIntentsExercise.class
+                );
+                startActivity(intentPI);
+            }
+        });
+
     }
 }

@@ -55,6 +55,7 @@
             android:text="Gender" />
 
         <RadioGroup
+            android:id="@+id/rAnnyeong"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -86,6 +87,7 @@
             android:text="Marital Status" />
 
         <RadioGroup
+            android:id="@+id/rImnida"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -280,7 +282,7 @@
                 android:text="Clear" />
 
             <Button
-                android:id="@+id/btnPLSubmit"
+                android:id="@+id/btnPISubmit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
