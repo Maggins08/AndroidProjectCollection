@@ -20,10 +20,9 @@
             android:id="@+id/txtViewPlayer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
             android:gravity="center"
             android:text="Player 1's Turn"
-            android:textSize="22dp" />
+            android:textSize="20dp" />
 
         <GridLayout
             android:layout_width="wrap_content"
@@ -36,35 +35,35 @@
             <Button
                 android:id="@+id/button_00"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_01"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_02"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_03"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_04"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
@@ -72,35 +71,35 @@
             <Button
                 android:id="@+id/button_10"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_11"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_12"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_13"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_14"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
@@ -108,35 +107,35 @@
             <Button
                 android:id="@+id/button_20"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_21"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_22"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_23"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_24"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
@@ -144,35 +143,35 @@
             <Button
                 android:id="@+id/button_30"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_31"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_32"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_33"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_34"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
@@ -180,35 +179,35 @@
             <Button
                 android:id="@+id/button_40"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_41"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_42"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_43"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
             <Button
                 android:id="@+id/button_44"
                 android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:backgroundTint="#00FF5D"
                 android:text="" />
 
@@ -218,7 +217,7 @@
             android:id="@+id/btnRestart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="5dp"
             android:backgroundTint="#4DE324"
             android:text="Restart" />
 

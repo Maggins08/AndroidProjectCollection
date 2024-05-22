@@ -3,12 +3,18 @@ package com.example.androidprojectcollection;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import java.util.Random;
 
 public class MenuExercise extends AppCompatActivity {
 
@@ -31,14 +37,52 @@ public class MenuExercise extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item){
-        if(item.getItemId() == R.id.mItemChange){
-            Toast.makeText(this,"Edit Object Item is clicked",Toast.LENGTH_SHORT).show();
-        }else if(item.getItemId() == R.id.mItemReset){
-            Toast.makeText(this,"Reset Object Item is clicked",Toast.LENGTH_SHORT).show();
-        }else if (item.getItemId() == R.id.mItemExit){
-            finish();
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        Button changeBtn = findViewById(R.id.btnTransformingButton);
+
+        switch (item.getItemId()) {
+            case R.id.change_bg:
+                int randomColor = getRandomColor();
+                changeBtn.setBackgroundColor(randomColor);
+                return true;
+
+            case R.id.change_txt_color:
+                int randomTxtColor = getRandomColor();
+                changeBtn.setTextColor(randomTxtColor);
+                return true;
+
+            case R.id.change_text:
+                changeBtn.setText("New Button Text");
+                return true;
+
+            case R.id.Promptbtn:
+                Toast.makeText(MenuExercise.this, "You pressed Prompt Button!", Toast.LENGTH_SHORT).show();
+                return true;
+
+            case R.id.change_size:
+                changeBtn.setTextSize(TypedValue.COMPLEX_UNIT_SP, 40);
+                return true;
+
+            case R.id.mItemReset:
+                changeBtn.setTextColor(getColor(R.color.white));
+                changeBtn.setBackgroundColor(getColor(R.color.purple_200));
+                changeBtn.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
+                return true;
+
+            case R.id.mItemExit:
+                Intent intent1 = new Intent(MenuExercise.this, MainActivity.class);
+                startActivity(intent1);
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return true;
+    }
+    private int getRandomColor() {
+        int[] colors = {
+                Color.RED, Color.BLUE, Color.GREEN, Color.YELLOW,
+                Color.WHITE, Color.CYAN, Color.MAGENTA, Color.LTGRAY
+        };
+        return colors[new Random().nextInt(colors.length)];
     }
 }

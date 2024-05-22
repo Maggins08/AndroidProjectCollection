@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">AndroidProjectCollection</string>
+    <string name="app_name" translatable="false">AndroidProjectCollection</string>
+    <string name="TextView" translatable="false">0</string>
+    <string name="player1turn" translatable="false">Player 1</string>
+    <string name="player2turn" translatable="false">Player 2</string>
+    <string name="player1wins" translatable="false">Player 1 Wins!</string>
+    <string name="player2wins" translatable="false">Player 2 Wins!</string>
+    <string name="draw" translatable="false">Draw!</string>
+    <string name="reset" translatable="false">Reset</string>
 </resources>

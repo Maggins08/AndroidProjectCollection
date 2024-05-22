@@ -4,12 +4,21 @@
         android:id="@+id/mItemChange"
         android:title="mItemChange">
         <menu>
-            <item android:title="Item" />
-            <item android:title="Item" />
-            <item android:title="Item" />
-            <item android:title="Item" />
-            <item android:title="Item" />
-            <item android:title="Item" />
+            <item
+                android:id="@+id/change_bg"
+                android:title="Background Change" />
+            <item
+                android:id="@+id/change_txt_color"
+                android:title="Text Color" />
+            <item
+                android:id="@+id/change_text"
+                android:title="Item" />
+            <item
+                android:id="@+id/Promptbtn"
+                android:title="Prompt" />
+            <item
+                android:id="@+id/change_size"
+                android:title="Change Size" />
         </menu>
     </item>
     <item
